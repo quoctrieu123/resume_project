@@ -20,7 +20,7 @@ from chatbot import ChatBot #import class ChatBot từ file chatbot.py
 from retriever import ResumeRetriever #import class ResumeRetriever từ file retriever.py
 from llama_index.core import Document #set seed cho việc random
 
-set_seed(42)
+set_seed(42) #đặt seed để đảm bảo tính tái lập
 
 # Ensure temp upload directory exists
 os.makedirs(TEMP_UPLOAD_DIR, exist_ok=True) #tạo thư mục tạm để lưu file upload
